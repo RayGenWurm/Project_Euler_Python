@@ -1,5 +1,6 @@
 # https://projecteuler.net/problem=1
 # "Multiples of 3 or 5"
+# Nov-2024 / RayGenWurm
 
 limit = 1000
 calc_sum = 0
