@@ -5,6 +5,9 @@
 # first try - simple brute forcing
 
 import math
+import time
+
+start = time.time()
 
 given_number = 600851475143
 # given_number = 13195
@@ -24,3 +27,5 @@ for i in range(int(math.sqrt(given_number) / 2), 0, -2):
             print(str(i))
             break
 
+end = time.time()
+print(end - start)
