@@ -2,11 +2,9 @@
 # "Largest Palindrome Product"
 # Nov-2024 / RayGenWurm
 
-limit = 99     # 2 digit
-limit = 999    # 3 digit
-highest = 0
-a = 0
-b = 0
+# limit = 99    # 2 digit
+limit = 999     # 3 digit
+a = b = highest = 0
 
 def check_it(n1, n2):
     if str(n1 * n2) == str(n1 * n2)[::-1]:
