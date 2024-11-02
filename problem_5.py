@@ -2,7 +2,7 @@
 # "Smallest Multiple"
 # Nov-2024 / RayGenWurm
 
-# V1 simple brute force... takes about 40 seconds on my machine
+# V1 simple brute force... takes about 5 seconds on my machine
 
 import time
 start = time.time()
@@ -10,12 +10,12 @@ start = time.time()
 x = highest_divisor = 20
 
 while True:
-    for i in range(highest_divisor, 1, -1):
+    for i in range(highest_divisor, 10, -1):
         if x % i != 0:
             break
-    if i == 2 and x % i == 0:
+    if i <= 11 and x % i == 0:
         break
-    x += 2
+    x += highest_divisor
 
 print(str(x))
 end = time.time()
