@@ -1,4 +1,4 @@
-# https://projecteuler.net/problem=6
+# https://projecteuler.net/problem=7
 # "10001st Prime"
 # Nov-2024 / RayGenWurm
 
