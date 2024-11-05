@@ -2,8 +2,8 @@
 # "Special Pythagorean Triplet"
 # Nov-2024 / RayGenWurm
 
-# first try - brute force but cut out impossible combinations
-# takes about 20 seconds
+# second try - after some testing I found a way to shorten the possible combinations
+# takes about 10 seconds
 
 import time
 start = time.time()
@@ -12,8 +12,8 @@ goal = 1000
 
 for x in range(1, goal):
     print("x -", str(x))
-    for y in range(x, goal):
-        for z in range(y, goal):
+    for y in range(x + 1, goal - x):
+        for z in range(y + 1, goal - y):
             if x**2 + y**2 == z**2 and x+y+z == 1000:
                 print("found it !")
                 print(str(x), str(y), str(z))
