@@ -34,8 +34,6 @@ while prime_list[check_pos] <= check_stop:
     check_pos += 1
 
 # now our list only contains prime numbers til set limit
-
-
 # now just sum them up
 
 for x in prime_list:
@@ -44,11 +42,7 @@ for x in prime_list:
 print()
 print("final sum:", prime_sum)
 
-# print()
-# print(prime_list)
 
 end = time.time()
 print()
 print(end - start, "seconds")
-
-# 5736396
