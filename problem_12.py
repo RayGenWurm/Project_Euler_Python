@@ -1,4 +1,4 @@
-# https://projecteuler.net/problem=11
+# https://projecteuler.net/problem=12
 # "Highly Divisible Triangular Number"
 # Nov-2024 / RayGenWurm
 
