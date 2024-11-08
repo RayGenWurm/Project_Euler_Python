@@ -2,9 +2,12 @@
 # "Longest Collatz Sequence"
 # Nov-2024 / RayGenWurm
 
-# runs in about 14 seconds... I have no idea how to improve this so i will go with it
+# runs in about 14 seconds... I have no idea how to improve this so I will go with it
 
-import time, math
+# UPDATE: after a bit of research => you only have to check for the upper half of possible numbers
+# cuts runtime down to 8 sec
+
+import time
 start = time.time()
 
 
@@ -22,7 +25,7 @@ def calc_collatz(n):
         counter += 1
     return counter
 
-for i in range(1, limit, 2):
+for i in range(int(limit/2+1), limit, 2):
     if ((i - 1) // 2 + 1) % 1000 == 0: # just to print some progress while waiting
         print("progress:",i, "of 1000000")
     tmp = calc_collatz(i)
