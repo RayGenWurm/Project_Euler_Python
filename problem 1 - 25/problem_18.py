@@ -1,5 +1,5 @@
 # https://projecteuler.net/problem=18
-# "Number Letter Counts"
+# "Maximum Path Sum I"
 # Nov-2024 / RayGenWurm
 
 # my most complicated algo so far...
