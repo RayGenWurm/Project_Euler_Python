@@ -1,5 +1,5 @@
 # https://projecteuler.net/problem=67
-# "Number Letter Counts"
+# "Maximum Path Sum II"
 # Nov-2024 / RayGenWurm
 
 # same as problem 18... just changes depth to 16 to get the right result
